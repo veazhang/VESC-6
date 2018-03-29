@@ -37,7 +37,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 5
 Title "VESC 6.4 "
 Date "2018-02-05"
 Rev "1a"
