@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "VESC 6.4 "
-Date "2018-02-05"
+Date "2018-05-04"
 Rev "1a"
 Comp ""
 Comment1 "Original Design Credit: Benjamin Vedder"

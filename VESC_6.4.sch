@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "VESC 6.4 "
-Date "2018-02-05"
+Date "2018-05-04"
 Rev "1a"
 Comp ""
 Comment1 "Original Design Credit: Benjamin Vedder"
@@ -407,36 +407,14 @@ F 3 "" H 2600 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_SPDT SW1
-U 1 1 5A79C7B9
-P 1350 2300
-F 0 "SW1" H 1100 2200 50  0000 L CNN
-F 1 "SENSOR_VOLTAGE" H 1050 2100 50  0000 L CNN
-F 2 "Global_Parts:JS102011JCQN" H 1350 2300 50  0001 C CNN
-F 3 "" H 1350 2300 50  0001 C CNN
-	1    1350 2300
-	0    1    -1   0   
-$EndComp
-$Comp
 L VCC #PWR02
 U 1 1 5A79CD83
-P 1450 2050
-F 0 "#PWR02" H 1450 1900 50  0001 C CNN
-F 1 "VCC" H 1467 2223 50  0000 C CNN
-F 2 "" H 1450 2050 50  0001 C CNN
-F 3 "" H 1450 2050 50  0001 C CNN
-	1    1450 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR01
-U 1 1 5A79D04F
-P 1250 2050
-F 0 "#PWR01" H 1250 1900 50  0001 C CNN
-F 1 "+5V" H 1265 2223 50  0000 C CNN
-F 2 "" H 1250 2050 50  0001 C CNN
-F 3 "" H 1250 2050 50  0001 C CNN
-	1    1250 2050
+P 1350 2500
+F 0 "#PWR02" H 1350 2350 50  0001 C CNN
+F 1 "VCC" H 1367 2673 50  0000 C CNN
+F 2 "" H 1350 2500 50  0001 C CNN
+F 3 "" H 1350 2500 50  0001 C CNN
+	1    1350 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -550,10 +528,6 @@ Connection ~ 1350 2700
 Wire Wire Line
 	1650 2800 1350 2800
 Connection ~ 1350 2800
-Wire Wire Line
-	1450 2050 1450 2100
-Wire Wire Line
-	1250 2050 1250 2100
 Wire Wire Line
 	4300 2600 4400 2600
 Wire Wire Line
@@ -931,12 +905,6 @@ Wire Wire Line
 	8400 2400 8900 2400
 Wire Wire Line
 	8900 2300 8400 2300
-Wire Wire Line
-	2550 4000 2550 3950
-Connection ~ 2550 3950
-Wire Wire Line
-	2600 4100 2600 4050
-Connection ~ 2600 4050
 Wire Wire Line
 	8900 1800 8400 1800
 $EndSCHEMATC
